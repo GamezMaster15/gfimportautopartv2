@@ -1,0 +1,1 @@
+import{g as i,c as n,d as t}from"./firebase-27c2c523.js";import{r as o}from"./index-e9195293.js";const s=o([]),r=o([]),d=async()=>{(await i(n(t,"inventario"))).forEach(a=>{s.value.push({...a.data(),id:a.id}),r.value.push({...a.data(),id:a.id})})};export{s as a,r as b,d as i};
